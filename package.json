@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  },
+  "name": "web",
+  "description": "a tiny web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./bin/www",
+    "start": "nodemon -x npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeZr/web_tiny.git"
+  },
+  "author": "Georgezr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeZr/web_tiny/issues"
+  },
+  "homepage": "https://github.com/GeorgeZr/web_tiny#readme"
+}
